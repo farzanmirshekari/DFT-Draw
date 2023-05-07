@@ -3,14 +3,12 @@
 
 #include <SFML/Graphics.hpp>
 
-class SVG_data {
-    private:
+class SVG_data { 
+    public:
         char command;
         std::vector<sf::Vector2f> points;
-    
-    public:
+        SVG_data() {};
         SVG_data(char command);
-        char get_command();
 };
 
 typedef std::vector<SVG_data> SVG_path_parameter;
