@@ -7,6 +7,7 @@ class Complex {
     public:
         double real;
         double imaginary;
+        Complex() {};
         Complex(sf::Vector2f point);
         Complex(sf::Vertex point);    
         Complex(double real, double imaginary);
