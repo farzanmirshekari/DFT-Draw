@@ -63,7 +63,7 @@ void update_vertices(
                 circles[i - 2].setOrigin(circles[i - 2].getRadius(), circles[i - 2].getRadius());
             }
         }
-        curves.push_back(sf::Vertex(sf::Vector2f(vertices[number_of_arms].position.x, vertices[number_of_arms].position.y), sf::Color(184, 169, 4)));
+        curves.push_back(sf::Vertex(sf::Vector2f(vertices[number_of_arms].position.x, vertices[number_of_arms].position.y), sf::Color(252, 140, 3)));
 
         if (curves.size() > (int)STORAGE_THRESHOLD) curves.erase(curves.begin());
 
