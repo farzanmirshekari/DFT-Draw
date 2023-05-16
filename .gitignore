@@ -1,4 +1,4 @@
 .vscode/
-assets/
-fourier_visualizer
+dft_draw
 output.txt
+.DS_Store
