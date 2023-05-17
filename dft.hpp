@@ -8,11 +8,8 @@
 #include <cmath>
 #include <fstream>
 
-using namespace std;
-using namespace sf;
-
-void discrete_fourier_transform(Polygon figure, map<int, Complex>& coefficient) {
-	ofstream outfile("coefficients.txt");
+void discrete_fourier_transform(Polygon figure, std::map<int, Complex>& coefficient) {
+	std::ofstream outfile("coefficients.txt");
 	for (int coefficient_index = MIN_FREQUENCY; coefficient_index <= MAX_FREQUENCY; coefficient_index++) {
 		coefficient[coefficient_index] = Complex(0, 0);
 		int i = 0;

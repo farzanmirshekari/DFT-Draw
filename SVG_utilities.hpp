@@ -74,7 +74,7 @@ std::string get_d_parameter_from_path(std::string file_name) {
 
 SVG_path_parameter convert_string_to_SVG_path(std::string input, float m_coefficient) {
     SVG_path_parameter path;
-	string token = "";
+	std::string token = "";
 	char command;
 	int parameter_count = 0;
 	float x_previous = 0, y_previous = 0;
@@ -104,7 +104,7 @@ SVG_path_parameter convert_string_to_SVG_path(std::string input, float m_coeffic
 				x = stof(token);
 				if (command == 'h')  x += x_previous;   
 				                 x_previous = x;    
-				path[path.size() - 1].points.push_back(Vector2f(x * m_coefficient, y * m_coefficient));
+				path[path.size() - 1].points.push_back(sf::Vector2f(x * m_coefficient, y * m_coefficient));
 				token = "";
 				continue;
 			}
@@ -113,7 +113,7 @@ SVG_path_parameter convert_string_to_SVG_path(std::string input, float m_coeffic
 				y = stof(token);
 				if (command == 'v')  y += y_previous;  
 								 y_previous = y;  
-				path[path.size() - 1].points.push_back(Vector2f(x * m_coefficient, y * m_coefficient));
+				path[path.size() - 1].points.push_back(sf::Vector2f(x * m_coefficient, y * m_coefficient));
 				token = "";
 				continue;
 			}
@@ -136,7 +136,7 @@ SVG_path_parameter convert_string_to_SVG_path(std::string input, float m_coeffic
                     x_previous = x;
                     y_previous = y;
                 }
-				path[path.size() - 1].points.push_back(Vector2f(x * m_coefficient, y * m_coefficient));
+				path[path.size() - 1].points.push_back(sf::Vector2f(x * m_coefficient, y * m_coefficient));
 			}
 		
 			parameter_count++;
