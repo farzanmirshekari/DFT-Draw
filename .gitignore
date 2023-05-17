@@ -1,4 +1,4 @@
 .vscode/
 dft_draw
-output.txt
+*.txt
 .DS_Store
