@@ -223,11 +223,5 @@ Polygon convert_path_to_coordinates(SVG_path_parameter path) {
         }
     }
 
-    std::fstream out_fs("output.txt", std::fstream::out);
-    for (i = 0; i < (int)image.size(); ++i) 
-		out_fs << image[i].position.x << " " << image[i].position.y << std::endl;
-
-    out_fs.close();
-
 	return image;
 }
