@@ -1,5 +1,4 @@
-#ifndef SVG_UTILITIES_HPP
-#define SVG_UTILITIES_HPP
+#pragma once
 
 #include "SVG_data.hpp"
 #include "calculations.hpp"
@@ -232,5 +231,3 @@ Polygon convert_path_to_coordinates(SVG_path_parameter path) {
 
 	return image;
 }
-
-#endif

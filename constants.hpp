@@ -1,3 +1,5 @@
+#pragma once
+
 #define FRAME_RATE 144
 #define MAX_FREQUENCY 300
 #define MIN_FREQUENCY -300

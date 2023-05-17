@@ -1,3 +1,5 @@
+#pragma once
+
 #include "SVG_data.hpp"
 #include "Complex.hpp"
 #include "constants.hpp"
