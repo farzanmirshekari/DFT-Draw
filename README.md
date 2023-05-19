@@ -17,8 +17,18 @@ Behold, as the SVG file comes to life, an artistic spell woven by the magical po
 
 <h3>How to <b><i>DFT Draw</i></b></h3>
 
-To build the project, make sure to have  installed. The available Makefile is for Mac users (tested and verified on <b>OSX Ventura</b>).
+To build the project, make sure to have <i>SFML</i> installed. The available Makefile is for Mac users (tested and verified on <b>OSX Ventura</b>).
 Edit the Makefile as necessary to include <i>SFML</i>.
+<br>
+The project can be built with:
+```
+make
+```
+This will create the executable.
+<b><i>DFT Draw</i></b> can then be run with:
+```
+./dft_draw <path_to_SVG_file> [-z zoom]
+```
 
 ---
 
