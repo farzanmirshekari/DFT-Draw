@@ -2,6 +2,11 @@
 #include "draw.h"
 
 int main(int argc, char** argv) {
+    if (argc < 2) {
+        std::cout << "Usage: " << argv[0] << " <file_name> [-z <zoom>]" << std::endl;
+        return 1;
+    }
+
     std::string file_name = std::string(argv[1]);
 
     float zoom = 4.0f;
