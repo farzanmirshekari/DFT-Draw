@@ -9,7 +9,7 @@ Behold, as the SVG file comes to life, an artistic spell woven by the magical po
 
 ---
 
-<h3>Tools</h3>
+<h3>Implementation</h3>
 
 <b><i>DFT Draw</i></b> is written in <i>C++</i> and leverages <i>SFML</i> for visualization.
 
