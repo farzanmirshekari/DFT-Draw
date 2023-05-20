@@ -1,7 +1,7 @@
 #pragma once
 
-#include "SVG_data.hpp"
-#include "calculations.hpp"
+#include "SVG_data.h"
+#include "calculations.h"
 
 #include <string>
 #include <vector>

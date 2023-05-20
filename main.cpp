@@ -1,5 +1,5 @@
 #include <string>
-#include "draw.hpp"
+#include "draw.h"
 
 int main(int argc, char** argv) {
     std::string file_name = std::string(argv[1]);

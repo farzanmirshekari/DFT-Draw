@@ -1,4 +1,4 @@
-#include "Arm.hpp"
+#include "Arm.h"
 
 Arm::Arm(double phase, double frequency, double amplitude) {
     this->phase = phase;

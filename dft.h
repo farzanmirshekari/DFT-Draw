@@ -1,10 +1,10 @@
 #pragma once
 
-#include "SVG_data.hpp"
-#include "Complex.hpp"
-#include "constants.hpp"
-#include "Complex.hpp"
-#include "complex_utilities.hpp"
+#include "SVG_data.h"
+#include "Complex.h"
+#include "constants.h"
+#include "Complex.h"
+#include "complex_utilities.h"
 
 #include <SFML/Graphics.hpp>
 #include <cmath>

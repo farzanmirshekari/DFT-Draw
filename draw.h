@@ -1,11 +1,11 @@
 #pragma once
 
-#include "SVG_data.hpp"
-#include "Arm.hpp"
-#include "Complex.hpp"
-#include "dft.hpp"
-#include "calculations.hpp"
-#include "SVG_utilities.hpp"
+#include "SVG_data.h"
+#include "Arm.h"
+#include "Complex.h"
+#include "dft.h"
+#include "calculations.h"
+#include "SVG_utilities.h"
 
 #include <SFML/Graphics.hpp>
 #include <cmath>
